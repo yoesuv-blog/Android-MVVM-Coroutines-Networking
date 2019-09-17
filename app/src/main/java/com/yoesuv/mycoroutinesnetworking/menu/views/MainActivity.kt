@@ -1,7 +1,8 @@
-package com.yoesuv.mycoroutinesnetworking
+package com.yoesuv.mycoroutinesnetworking.menu.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.yoesuv.mycoroutinesnetworking.R
 
 class MainActivity : AppCompatActivity() {
 
