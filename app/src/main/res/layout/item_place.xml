@@ -18,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
+            app:loadImage="@{itemPlace.imageUrl}"
             tools:srcCompat="@tools:sample/backgrounds/scenic"/>
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -27,7 +28,7 @@
             android:layout_marginRight="@dimen/margin_item_place"
             android:text="@{itemPlace.name}"
             android:textColor="@android:color/white"
-            android:textSize="18sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             android:shadowDx="2"
             android:shadowDy="2"
@@ -44,8 +45,8 @@
             android:layout_marginRight="@dimen/margin_item_place"
             android:layout_marginBottom="@dimen/margin_item_place"
             android:text="@{itemPlace.location}"
-            android:textColor="@android:color/black"
-            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
             android:shadowDx="2"
             android:shadowDy="2"
             android:shadowColor="@android:color/black"
